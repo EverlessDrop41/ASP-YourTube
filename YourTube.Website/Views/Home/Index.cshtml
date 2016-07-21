@@ -1,0 +1,63 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<br />
+
+
+    <h1>Welcome to <strong>Your</strong> Tube</h1>
+    <p>A youtube client that allows channels to make a personalizable channel page</p>
+
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/banner1.svg" alt="Themes Banner" class="img-responsive">
+            <div class="carousel-caption">
+                <h3>Themes</h3>
+                <p>Personalize your channels page(s) to suit your channels style</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/banner2.svg" alt="Pages Banner" class="img-responsive">
+            <div class="carousel-caption">
+                <h3>Pages</h3>
+                <p>Add custom pages to suit your needs</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/banner3.svg" alt="Blogs Banner" class="img-responsive">
+            <div class="carousel-caption">
+                <h3>Blog</h3>
+                <p>Have a blog linked to your channel to keep your users informed</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/banner4.svg" alt="Forum Banner" class="img-responsive">
+            <div class="carousel-caption">
+                <h3>Forum</h3>
+                <p>Let your fans communicate with a forum</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
